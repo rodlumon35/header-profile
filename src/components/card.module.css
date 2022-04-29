@@ -1,0 +1,52 @@
+* {
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.technologies {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  gap: 35px
+}
+
+.techTitle {
+  font-size: 1.5rem;
+}
+
+.techContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 110px
+}
+
+.logo {
+  width: 70px;
+  height: auto;
+  animation: ease-in-out 1s;
+  animation-name: appear;
+}
+
+@keyframes appear {
+  from {
+    transform: translateY(-100);
+  }
+  to {transform: translateY(0);}
+}
